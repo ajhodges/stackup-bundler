@@ -4,9 +4,9 @@ import (
 	"errors"
 	"time"
 
+	"github.com/ajhodges/stackup-bundler/internal/ginutils"
 	"github.com/gin-gonic/gin"
 	"github.com/go-logr/logr"
-	"github.com/stackup-wallet/stackup-bundler/internal/ginutils"
 )
 
 // WithLogr uses a logger with the go-logr/logr interface to log a gin HTTP request.

@@ -3,8 +3,8 @@ package testutils
 import (
 	"math/big"
 
+	"github.com/ajhodges/stackup-bundler/pkg/entrypoint"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/stackup-wallet/stackup-bundler/pkg/entrypoint"
 )
 
 func MockGetCode(addr common.Address) ([]byte, error) {

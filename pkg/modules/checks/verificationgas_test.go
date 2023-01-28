@@ -4,9 +4,9 @@ import (
 	"math/big"
 	"testing"
 
+	"github.com/ajhodges/stackup-bundler/internal/testutils"
+	"github.com/ajhodges/stackup-bundler/pkg/gas"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/stackup-wallet/stackup-bundler/internal/testutils"
-	"github.com/stackup-wallet/stackup-bundler/pkg/gas"
 )
 
 // TestOpVGlessThanMaxVG calls checks.ValidateVerificationGas where verificationGas < MAX_VERIFICATION_GAS.

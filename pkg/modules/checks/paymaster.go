@@ -3,8 +3,8 @@ package checks
 import (
 	"errors"
 
+	"github.com/ajhodges/stackup-bundler/pkg/userop"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/stackup-wallet/stackup-bundler/pkg/userop"
 )
 
 // ValidatePaymasterAndData checks the paymasterAndData is either zero bytes or the first 20 bytes contain an

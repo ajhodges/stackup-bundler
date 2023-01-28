@@ -5,12 +5,12 @@ package checks
 import (
 	"math/big"
 
+	"github.com/ajhodges/stackup-bundler/pkg/entrypoint"
+	"github.com/ajhodges/stackup-bundler/pkg/errors"
+	"github.com/ajhodges/stackup-bundler/pkg/modules"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/ethclient"
 	"github.com/ethereum/go-ethereum/rpc"
-	"github.com/stackup-wallet/stackup-bundler/pkg/entrypoint"
-	"github.com/stackup-wallet/stackup-bundler/pkg/errors"
-	"github.com/stackup-wallet/stackup-bundler/pkg/modules"
 	"golang.org/x/sync/errgroup"
 )
 

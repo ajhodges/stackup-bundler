@@ -5,10 +5,10 @@ package paymaster
 import (
 	"errors"
 
+	"github.com/ajhodges/stackup-bundler/pkg/modules"
 	mapset "github.com/deckarep/golang-set/v2"
 	"github.com/dgraph-io/badger/v3"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/stackup-wallet/stackup-bundler/pkg/modules"
 )
 
 // Reputation provides Client and Bundler modules to track the status of every Paymaster seen in a

@@ -3,8 +3,8 @@ package client
 import (
 	"errors"
 
-	"github.com/stackup-wallet/stackup-bundler/pkg/entrypoint"
-	"github.com/stackup-wallet/stackup-bundler/pkg/gas"
+	"github.com/ajhodges/stackup-bundler/pkg/entrypoint"
+	"github.com/ajhodges/stackup-bundler/pkg/gas"
 )
 
 // RpcAdapter is an adapter for routing JSON-RPC method calls to the correct client functions.

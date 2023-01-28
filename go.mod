@@ -1,4 +1,4 @@
-module github.com/stackup-wallet/stackup-bundler
+module github.com/ajhodges/stackup-bundler
 
 go 1.19
 

@@ -4,9 +4,9 @@ import (
 	"math/big"
 	"strings"
 
+	"github.com/ajhodges/stackup-bundler/internal/utils"
+	"github.com/ajhodges/stackup-bundler/pkg/tracer"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/stackup-wallet/stackup-bundler/internal/utils"
-	"github.com/stackup-wallet/stackup-bundler/pkg/tracer"
 )
 
 type callEntry struct {

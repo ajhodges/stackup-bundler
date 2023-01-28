@@ -4,12 +4,12 @@ import (
 	"errors"
 	"math/big"
 
+	"github.com/ajhodges/stackup-bundler/pkg/entrypoint"
+	"github.com/ajhodges/stackup-bundler/pkg/gas"
+	"github.com/ajhodges/stackup-bundler/pkg/userop"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/ethclient"
 	"github.com/ethereum/go-ethereum/rpc"
-	"github.com/stackup-wallet/stackup-bundler/pkg/entrypoint"
-	"github.com/stackup-wallet/stackup-bundler/pkg/gas"
-	"github.com/stackup-wallet/stackup-bundler/pkg/userop"
 )
 
 // GetUserOpReceiptFunc is a general interface for fetching a UserOperationReceipt given a userOpHash and

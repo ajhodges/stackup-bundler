@@ -6,13 +6,13 @@ import (
 	"math"
 	"math/big"
 
+	"github.com/ajhodges/stackup-bundler/pkg/signer"
+	"github.com/ajhodges/stackup-bundler/pkg/userop"
 	"github.com/ethereum/go-ethereum"
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/ethclient"
-	"github.com/stackup-wallet/stackup-bundler/pkg/signer"
-	"github.com/stackup-wallet/stackup-bundler/pkg/userop"
 )
 
 func toAbiType(batch []*userop.UserOperation) []UserOperation {

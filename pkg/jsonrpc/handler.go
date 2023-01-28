@@ -8,8 +8,8 @@ import (
 	"net/http"
 	"reflect"
 
+	"github.com/ajhodges/stackup-bundler/pkg/errors"
 	"github.com/gin-gonic/gin"
-	"github.com/stackup-wallet/stackup-bundler/pkg/errors"
 	"golang.org/x/text/cases"
 	"golang.org/x/text/language"
 )

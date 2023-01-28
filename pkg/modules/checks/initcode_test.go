@@ -3,9 +3,9 @@ package checks
 import (
 	"testing"
 
+	"github.com/ajhodges/stackup-bundler/internal/testutils"
+	"github.com/ajhodges/stackup-bundler/pkg/entrypoint"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/stackup-wallet/stackup-bundler/internal/testutils"
-	"github.com/stackup-wallet/stackup-bundler/pkg/entrypoint"
 )
 
 // TestInitCodeDNE calls checks.ValidateInitCode where initCode does not exist. Expect nil.

@@ -4,10 +4,10 @@ import (
 	"context"
 	"math/big"
 
+	"github.com/ajhodges/stackup-bundler/pkg/entrypoint"
+	"github.com/ajhodges/stackup-bundler/pkg/modules"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/ethclient"
-	"github.com/stackup-wallet/stackup-bundler/pkg/entrypoint"
-	"github.com/stackup-wallet/stackup-bundler/pkg/modules"
 )
 
 // GetCodeFunc provides a general interface for retrieving the bytecode for a given address.

@@ -1,6 +1,6 @@
 package main
 
-import "github.com/stackup-wallet/stackup-bundler/cmd"
+import "github.com/ajhodges/stackup-bundler/cmd"
 
 func main() {
 	cmd.Execute()

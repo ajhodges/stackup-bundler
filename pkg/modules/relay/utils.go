@@ -6,9 +6,9 @@ import (
 	"strings"
 	"time"
 
+	"github.com/ajhodges/stackup-bundler/pkg/userop"
 	"github.com/dgraph-io/badger/v3"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/stackup-wallet/stackup-bundler/pkg/userop"
 )
 
 const NoBanThreshold = 0

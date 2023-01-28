@@ -3,8 +3,8 @@ package checks
 import (
 	"errors"
 
+	"github.com/ajhodges/stackup-bundler/pkg/userop"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/stackup-wallet/stackup-bundler/pkg/userop"
 )
 
 // ValidateInitCode checks if initCode is not empty and gets the factory address. If factory address is valid

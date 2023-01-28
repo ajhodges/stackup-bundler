@@ -8,10 +8,10 @@ import (
 	"math/big"
 	"strings"
 
+	"github.com/ajhodges/stackup-bundler/pkg/userop"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/ethereum/go-ethereum/ethclient"
-	"github.com/stackup-wallet/stackup-bundler/pkg/userop"
 )
 
 type HashLookupResult struct {

@@ -6,12 +6,12 @@ import (
 	"fmt"
 	"math/big"
 
+	"github.com/ajhodges/stackup-bundler/pkg/bundler"
+	"github.com/ajhodges/stackup-bundler/pkg/entrypoint"
+	"github.com/ajhodges/stackup-bundler/pkg/mempool"
+	"github.com/ajhodges/stackup-bundler/pkg/signer"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/ethclient"
-	"github.com/stackup-wallet/stackup-bundler/pkg/bundler"
-	"github.com/stackup-wallet/stackup-bundler/pkg/entrypoint"
-	"github.com/stackup-wallet/stackup-bundler/pkg/mempool"
-	"github.com/stackup-wallet/stackup-bundler/pkg/signer"
 )
 
 // Debug exposes methods used for testing the bundler. These should not be made available in production.

@@ -4,9 +4,9 @@ import (
 	"math/big"
 	"testing"
 
+	"github.com/ajhodges/stackup-bundler/internal/testutils"
+	"github.com/ajhodges/stackup-bundler/pkg/userop"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/stackup-wallet/stackup-bundler/internal/testutils"
-	"github.com/stackup-wallet/stackup-bundler/pkg/userop"
 )
 
 // TestNoPendingOps calls checks.ValidatePendingOps with no pending UserOperations. Expect nil.
